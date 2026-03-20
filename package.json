@@ -1,0 +1,14 @@
+{
+  "name": "first-call-exterior-cleaning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "First Call Exterior Cleaning - Cape Coral, FL",
+  "scripts": {
+    "build": "node build.js",
+    "convert": "node convert.js",
+    "watch": "node -e \"const{watch}=require('fs');const{exec}=require('child_process');['src','includes'].forEach(d=>{watch(d,{recursive:true},()=>{exec('node build.js',(_,o,e)=>{process.stdout.write(o);if(e)process.stderr.write(e)})})});console.log('Watching src/ and includes/ for changes...')\""
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

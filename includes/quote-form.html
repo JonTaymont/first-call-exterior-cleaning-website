@@ -1,0 +1,59 @@
+      <div class="form-card" id="quote">
+        <div class="form-header">
+          <div class="free-tag">100% Free · No Obligation</div>
+          <h2>Get Your Free Estimate</h2>
+          <p>We respond within 1 hour — schedule online or call us</p>
+        </div>
+        <form class="quote-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group"><label for="fname">First Name</label><input type="text" id="fname" name="fname" placeholder="John" autocomplete="given-name" required></div>
+            <div class="form-group"><label for="lname">Last Name</label><input type="text" id="lname" name="lname" placeholder="Smith" autocomplete="family-name" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="(239) 360-3448" autocomplete="tel" required></div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="john@email.com" autocomplete="email" required></div>
+          </div>
+          <div class="form-group"><label for="address">Property Address</label><input type="text" id="address" name="address" placeholder="123 Cape Coral Pkwy, Cape Coral, FL" autocomplete="street-address"></div>
+          <div class="form-group">
+            <label>Services Needed</label>
+            <div class="svc-checks">
+              <label class="svc-chk featured"><input type="checkbox" name="svc" value="paver"><span class="ck">✓</span><span class="cl">🧱 Paver Clean &amp; Seal</span></label>
+              <label class="svc-chk featured"><input type="checkbox" name="svc" value="pool"><span class="ck">✓</span><span class="cl">🏊 Pool Cage / Lanai</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="roof"><span class="ck">✓</span><span class="cl">Roof Cleaning</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="driveway"><span class="ck">✓</span><span class="cl">Driveway / Sidewalk</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="house"><span class="ck">✓</span><span class="cl">House Washing</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="window"><span class="ck">✓</span><span class="cl">Window Cleaning</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="dock"><span class="ck">✓</span><span class="cl">Dock Cleaning</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="fence"><span class="ck">✓</span><span class="cl">Fence / Wall</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="rust"><span class="ck">✓</span><span class="cl">Rust Removal</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="commercial"><span class="ck">✓</span><span class="cl">Commercial</span></label>
+              <label class="svc-chk"><input type="checkbox" name="svc" value="other"><span class="ck">✓</span><span class="cl">Other</span></label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="proptype">Property Type</label>
+              <select id="proptype" name="proptype"><option value="">Select...</option><option>Residential</option><option>Commercial</option><option>HOA / Community</option><option>Vacation Rental</option><option>Real Estate Listing</option></select>
+            </div>
+            <div class="form-group"><label for="referral">How'd You Find Us?</label>
+              <select id="referral" name="referral"><option value="">Select...</option><option>Google</option><option>NextDoor</option><option>Facebook</option><option>Referral</option><option>Yelp</option><option>Angi</option><option>Saw Our Truck</option><option>Other</option></select>
+            </div>
+          </div>
+          <div class="form-group"><label for="message">Additional Details</label><textarea id="message" name="message" placeholder="Tell us about your project — square footage, special concerns, preferred schedule, etc."></textarea></div>
+          <div class="form-group">
+            <label>Upload Photos (Optional)</label>
+            <div class="photo-upload" onclick="document.getElementById('photoInput{{PAGE_ID}}').click()" ondragover="event.preventDefault();this.style.borderColor='var(--blue)'" ondragleave="this.style.borderColor='#D0D5DD'" ondrop="event.preventDefault();handlePhotos(event.dataTransfer.files);this.style.borderColor='#D0D5DD'">
+              <input type="file" id="photoInput{{PAGE_ID}}" name="photos" multiple accept="image/*" style="display:none" onchange="handlePhotos(this.files)">
+              <div class="pu-icon">📷</div>
+              <div class="pu-text">Tap to upload or drag &amp; drop photos</div>
+              <div class="pu-sub">JPG, PNG up to 5MB each · Max 5 photos</div>
+            </div>
+            <div class="photo-preview" id="photoPreview"></div>
+          </div>
+          <button type="submit" class="submit-btn">Get My Free Estimate →</button>
+          <div class="form-trust">
+            <span>🔒 Your info stays private</span>
+            <span>⚡ Response within 1 hour</span>
+            <span>💲 No obligation</span>
+          </div>
+        </form>
+      </div>

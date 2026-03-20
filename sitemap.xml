@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://firstcallexteriorcleaning.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Services -->
+  <url><loc>https://firstcallexteriorcleaning.com/services/paver-cleaning-sealing.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/pool-cage-patio-lanai-cleaning.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/window-cleaning.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/soft-wash-roof-cleaning.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/driveway-sidewalk-cleaning.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/house-washing-gutter-cleaning.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/fence-wall-cleaning.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/dock-cleaning.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/rust-stain-removal.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Fort Myers Service Variants -->
+  <url><loc>https://firstcallexteriorcleaning.com/services/paver-cleaning-sealing-fort-myers.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/pool-cage-cleaning-fort-myers.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/roof-cleaning-fort-myers.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/services/pressure-washing-fort-myers.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Service Areas -->
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/fort-myers.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/north-fort-myers.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/lehigh-acres.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/estero.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/bonita-springs.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/naples.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/pine-island.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/sanibel.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/punta-gorda.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/port-charlotte.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/service-areas/st-james-city.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Blog -->
+  <url><loc>https://firstcallexteriorcleaning.com/blog/pressure-washing-vs-soft-washing.html</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://firstcallexteriorcleaning.com/blog/paver-sealing-guide.html</loc><priority>0.6</priority><changefreq>yearly</changefreq></url>
+</urlset>
